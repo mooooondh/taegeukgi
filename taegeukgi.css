@@ -6,13 +6,17 @@
 
 .menu-wrapper {
   display: flex;
-  justify-content: flex-end;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .visit-github-button {
+  color: white;
+  font-size: 28;
+  font-weight: 800;
   padding: 1rem 1.6rem;
-  margin: 1rem 0;
-  border: 1px solid black;
+  background: linear-gradient(135deg, red, blue);
   border-radius: 1rem;
   text-decoration: none;
 }
