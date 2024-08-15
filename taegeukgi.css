@@ -11,6 +11,11 @@
   justify-content: space-between;
 }
 
+.menu-text {
+  display: flex;
+  flex-direction: column;
+}
+
 .visit-github-button {
   color: white;
   font-size: 28;
