@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.visit-github-button {
+  padding: 1rem 1.6rem;
+  margin: 1rem 0;
+  border: 1px solid black;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+
+.taegeukgi-wrapper {
+  width: 100vw;
+  height: calc(100vw * 2 / 3);
+  border: 1px solid black;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+  height: 100%;
+}
+
+.grid-item {
+  display: flex;
+}
+
+.grid-center-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 2;
+}
+
+.geongongamri-wrapper {
+  display: flex;
+  width: calc(100vw / 9);
+  height: calc(100vw / 6);
+  gap: 10%;
+}
+
+.geongongamri-divided-line-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10%;
+}
+
+.geongongamri-line {
+  flex: 1;
+  background-color: black;
+}
+
+.gun-position {
+  padding-right: 10%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.gun-transform {
+  transform: rotate(34deg);
+}
+
+.gam-position {
+  padding-left: 10%;
+  align-items: center;
+}
+
+.gam-transform {
+  transform: rotate(-34deg);
+}
+
+.lee-position {
+  padding-right: 10%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.lee-transform {
+  transform: rotate(-34deg);
+}
+
+.gon-position {
+  padding-left: 10%;
+  align-items: center;
+}
+
+.gon-transform {
+  transform: rotate(34deg);
+}
+
+.taegeuk-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.taegeuk-outter-red {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+  height: 50%;
+  border-top-left-radius: 9999rem;
+  border-top-right-radius: 9999rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: red;
+}
+
+.taegeuk-outter-blue {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 50%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 9999rem;
+  border-bottom-right-radius: 9999rem;
+  background-color: blue;
+}
+
+.taegeuk-inner-red {
+  width: 50%;
+  height: 50%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 9999rem;
+  border-bottom-right-radius: 9999rem;
+  background-color: red;
+}
+
+.taegeuk-inner-blue {
+  width: 50%;
+  height: 50%;
+  border-top-left-radius: 9999rem;
+  border-top-right-radius: 9999rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: blue;
+}
